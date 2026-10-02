@@ -120,8 +120,10 @@ wouldn't help, because of (2): the airline would book FL101 twice.
 it books again.
 
 **(3) A timeout doesn't mean "not done."** The airline booked FL101 before the reply was lost, but the
-orchestrator treats "I don't know" as "it failed" and redoes the whole step. The fixed version still
-retries after a timeout; what changes is that the thing it retries is safe to repeat.
+orchestrator treats "I don't know" as "it failed" and redoes the whole step.
+
+The fixed version still retries after a timeout; what changes is that the thing it retries is safe to
+repeat.
 
 ### How to avoid it
 

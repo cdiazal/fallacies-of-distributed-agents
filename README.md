@@ -13,7 +13,7 @@ systems, and shows it failing (and fixed) in small, self-contained .NET and Pyth
 | 1 | [The network is reliable](fallacies/01-network-is-reliable/) | Every hop between agents, models, and tools can fail, and a naive retry books the flight twice. |
 | 2 | [Latency is zero](fallacies/02-latency-is-zero/) | Every agent turn takes seconds; ask one agent at a time and the user gives up before the plan is ready. |
 | 3 | [Bandwidth is infinite](fallacies/03-bandwidth-is-infinite/) | The context window is the bandwidth: forward everything and the runtime silently drops the user's budget. |
-| 4 | [The network is secure](fallacies/04-network-is-secure/) | Anything an agent reads can carry instructions, so the agent holding the payment tool cannot trust its peers. |
+| 4 | [The network is secure](fallacies/04-network-is-secure/) | Every call is authenticated, yet a review on a hotel's web page decides who the Payment agent pays. |
 | 5 | [Topology doesn't change](fallacies/05-topology-doesnt-change/) | Tools, agents, and the world change between turns; act on an old snapshot and you double-book. |
 | 6 | [There is one administrator](fallacies/06-one-administrator/) | Model providers, tool owners, and your own team all hold keys; one shared credential lets any agent do anything. |
 | 7 | [Transport cost is zero](fallacies/07-transport-cost-is-zero/) | Every call is billed in tokens, and two agents stuck in a "make it better" loop burn the budget. |

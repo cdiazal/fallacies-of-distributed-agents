@@ -22,10 +22,7 @@ uses its authority on behalf of someone who shouldn't have it, that's Norm Hardy
 (1988).
 
 Done right, these answers give you two guarantees: you know who sent each message, and the data in it
-stays data. Neither says the sender deserves trust. L. Peter Deutsch later took the fallacy that far: on
-[SE Radio 470](https://se-radio.net/2021/07/episode-470-l-peter-deutsch-on-the-fallacies-of-distributed-computing/),
-he called a proposed ninth fallacy "really an expansion of number four" and restated it as "the party
-that you're communicating with is trustworthy."
+stays data. Neither says the sender deserves your trust.
 
 ## The picture
 
@@ -50,11 +47,11 @@ no parameterized query for a prompt.
 Two things are new. First, a relay launders the text. The review arrives as page content and leaves in the
 Research agent's own words, with nothing left to mark it as a guest's; it reaches the Payment agent from a
 peer the runtime authenticates. Authentication tells you who sent a message, not who wrote it. A classic
-service can ignore the difference, because the text stays data; a model can't. That's Deutsch's expansion
-in practice: the Research agent is ours, yet it speaks partly for whoever wrote the page. Second, no code
-draws the path. The Research agent reads the web but can't pay; the Payment agent can pay but never reads the web.
-The orchestrator decides at run time where each agent's answer goes, so the path from a web page to
-`Charge` appears in no code you can review.
+service can ignore the difference, because the text stays data; a model can't. The Research agent is ours,
+yet it speaks partly for whoever wrote the page. Second, no code draws the path. The Research agent reads
+the web but can't pay; the Payment agent can pay but never reads the web. The orchestrator decides at run
+time where each agent's answer goes, so the path from a web page to `Charge` appears in no code you can
+review.
 [Harold Triedman, Rishi Jha, and Vitaly Shmatikov](https://arxiv.org/abs/2503.12188) hijacked AutoGen,
 CrewAI, and MetaGPT this way: agents that read the attacker's content acted as "confused deputies" for the
 agents that ran code, and the attack worked where plain indirect prompt injection almost always failed.
@@ -226,12 +223,10 @@ only its own tools, and that only the right people can edit the hotel catalog; w
   Deutsch, on James Gosling's site)
 - [Fallacy #4: The network is secure](https://particular.net/blog/the-network-is-secure) (David Boike,
   Particular Software, 2019)
-- [SE Radio 470: L. Peter Deutsch on the Fallacies of Distributed Computing](https://se-radio.net/2021/07/episode-470-l-peter-deutsch-on-the-fallacies-of-distributed-computing/)
-  (Jeff Doolittle, Software Engineering Radio, 2021)
 - [Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt
   Injection](https://arxiv.org/abs/2302.12173) (Kai Greshake et al., AISec '23, 2023)
 - Related: [The Fallacies of AI-Assisted Programming](https://writing.alteredcraft.com/p/the-fallacies-of-ai-assisted-programming)
-  (Sam Keen, 2026), which maps the "ninth fallacy" Deutsch restated in 2021 to coding agents that read
-  untrusted text *"as if it were trusted instruction."*
+  (Sam Keen, 2026), which makes the same point for coding agents that read untrusted text *"as if it were
+  trusted instruction."*
 
 [← All ten fallacies](../../README.md)

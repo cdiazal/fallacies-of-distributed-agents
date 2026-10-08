@@ -17,7 +17,7 @@ systems, and shows it failing (and fixed) in small, self-contained .NET and Pyth
 | 5 | [Topology doesn't change](fallacies/05-topology-doesnt-change/) | Tools change mid-run, the plan doesn't, and the Hotel agent holds the room instead of booking it. |
 | 6 | [There is one administrator](fallacies/06-one-administrator/) | One shared gateway key lets the Research agent refund the hotel payment, and the log names the account owner. |
 | 7 | [Transport cost is zero](fallacies/07-transport-cost-is-zero/) | Every call re-sends the whole conversation, so two agents that never agree bill 900,250 tokens for one room. |
-| 8 | [The network is homogeneous](fallacies/08-network-is-homogeneous/) | Different models, providers, and versions answer the same prompt differently; parse loosely and the dates go wrong. |
+| 8 | [The network is homogeneous](fallacies/08-network-is-homogeneous/) | Two providers enforce one schema differently; on the cheaper one, a March 1 trip gets a hotel for January 3. |
 | 9 | [Business logic can and should be centralized](fallacies/09-logic-can-be-centralized/) | A rule in the orchestrator's prompt is advice, not enforcement, and handoffs route around it. |
 | 10 | [The system is monolithic](fallacies/10-system-is-monolithic/) | A multi-agent run is not a transaction: when step three fails, steps one and two are still done. |
 

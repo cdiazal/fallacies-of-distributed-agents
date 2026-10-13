@@ -1,8 +1,8 @@
 // Fallacy 6: There is one administrator.
 // Run from the entry folder: dotnet run dotnet/OneAdministrator.cs   (.NET 10, no dependencies)
 //
-// The Payment agent pays the Garden Inn for trip-42; then the Research agent checks the hotel's cancellation
-// policy. The Research agent is connected to the payment gateway as well as the web.
+// The example system with one change: the Research agent is connected to the payment gateway as well
+// as the web. The Payment agent pays the Garden Inn; then the Research agent checks its cancellation policy.
 
 const string PayTheGardenInn = "pay 360 EUR for trip-42 to GARDEN-INN-001";
 const string CheckThePolicy = "read the Garden Inn's cancellation policy: can CH-001 be refunded?";

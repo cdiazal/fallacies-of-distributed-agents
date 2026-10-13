@@ -2,8 +2,8 @@
 
 Run from the entry folder: python python/one_administrator.py   (Python 3.12+, no dependencies)
 
-The Payment agent pays the Garden Inn for trip-42; then the Research agent checks the hotel's cancellation
-policy. The Research agent is connected to the payment gateway as well as the web.
+The example system with one change: the Research agent is connected to the payment gateway as well
+as the web. The Payment agent pays the Garden Inn; then the Research agent checks its cancellation policy.
 """
 
 from __future__ import annotations

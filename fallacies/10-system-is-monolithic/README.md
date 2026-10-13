@@ -215,7 +215,7 @@ says so. And have the runtime keep what can't be undone last, after "all critica
 In real code, record the undo where the result is still typed, in Microsoft Agent Framework's function
 middleware after the call returns
 ([Microsoft](https://learn.microsoft.com/en-us/agent-framework/concepts/agents/middleware/)); the OpenAI
-Agents SDK's [`on_tool_end`](https://openai.github.io/openai-agents-python/tools/#handling-errors-in-function-tools)
+Agents SDK's [`on_tool_end`](https://openai.github.io/openai-agents-python/ref/lifecycle/#agents.lifecycle.RunHooksBase.on_tool_end)
 also fires when a tool raises: check its result. Decide from the log, however the run ends,
 `MaxTurnsExceeded` and crashes included. Check one default: Microsoft Agent Framework for .NET makes runs
 atomic, meaning "chat history is only updated when the full run succeeds"

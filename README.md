@@ -4,8 +4,6 @@ Ten classic fallacies of distributed and enterprise computing, and what each one
 built from many AI agents. Every entry explains the classic fallacy, draws it, maps it to multi-agent
 systems, and shows it failing (and fixed) in small, self-contained .NET and Python programs.
 
-> **Work in progress.** Version 1.0 is planned for January 2027.
-
 ## The ten
 
 | # | Fallacy | With many agents |

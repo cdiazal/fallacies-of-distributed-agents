@@ -247,5 +247,7 @@ where code can reach the record, build the next step from it, as in [fallacy 4](
   (Sam Keen, 2026), whose sixth fallacy is *"All models are interchangeable,"* and
   [Lesson 147](https://www.developertoarchitect.com/lessons/lesson147.html) (Mark Richards, 2022), which
   names "versioning is simple" as a fallacy of its own.
+- Related: [AI Agents and fallacies of Distributed Computing](https://blog.gopenai.com/ai-agents-and-fallacies-of-distributed-computing-e45fadd1c765)
+  (Krishna Avva, 2026), whose section on this fallacy is titled *"the weakest dependency sets the rules."*
 
 [← All ten fallacies](../../README.md)

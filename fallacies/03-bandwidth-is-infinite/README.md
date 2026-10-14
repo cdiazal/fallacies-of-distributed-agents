@@ -236,5 +236,7 @@ every retry: that's [fallacy 7](../07-transport-cost-is-zero/).
   (Kelly Hong, Anton Troynikov, and Jeff Huber, Chroma, 2025)
 - Related: [The Fallacies of AI-Assisted Programming](https://writing.alteredcraft.com/p/the-fallacies-of-ai-assisted-programming)
   (Sam Keen, 2026), whose fifth fallacy is *"The context window is endless."*
+- Related: [AI Agents and fallacies of Distributed Computing](https://blog.gopenai.com/ai-agents-and-fallacies-of-distributed-computing-e45fadd1c765)
+  (Krishna Avva, 2026), whose section on this fallacy is titled *"context is just another payload, and a degrading one."*
 
 [← All ten fallacies](../../README.md)

@@ -12,9 +12,10 @@ Python program per entry.
 - [AI Agents and fallacies of Distributed Computing](https://blog.gopenai.com/ai-agents-and-fallacies-of-distributed-computing-e45fadd1c765)
   (Krishna Avva, July 26, 2026). The closest to this catalog: it walks through the eight fallacies one by
   one as they show up in agents, with the fixes that hold, and argues that invariants belong in the
-  orchestrator, enforced deterministically, never in the model. This catalog maps the same eight to a
-  system of many agents, adds two of Ted Neward's fallacies of enterprise computing, and shows each one
-  failing and fixed in a runnable .NET program and Python program.
+  orchestrator, enforced deterministically, never in the model. It covers *"one agent calling
+  deterministic tools"*; this catalog maps the same eight to a system of many agents, adds two of Ted
+  Neward's fallacies of enterprise computing, and shows each one failing and fixed in a runnable .NET
+  program and Python program.
 - [The Fallacies of GenAI Development](https://dev.to/bala_paranj_059d338e44e7e/the-fallacies-of-genai-development-1m54)
   (Bala Paranj, May 28, 2026). A nine-part series that opens with Deutsch's list and names eight false
   beliefs about AI-assisted development, such as the belief that more agents mean more productivity. It's

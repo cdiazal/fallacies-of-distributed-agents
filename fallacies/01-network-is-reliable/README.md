@@ -230,5 +230,7 @@ turn.
   (Malcolm Featonby, Amazon Builders' Library)
 - Related: [The Fallacies of AI-Assisted Programming](https://writing.alteredcraft.com/p/the-fallacies-of-ai-assisted-programming)
   (Sam Keen, 2026), whose first fallacy is *"The model output can be made deterministic."*
+- Related: [AI Agents and fallacies of Distributed Computing](https://blog.gopenai.com/ai-agents-and-fallacies-of-distributed-computing-e45fadd1c765)
+  (Krishna Avva, 2026), whose section on this fallacy is titled *"failure stops being binary."*
 
 [← All ten fallacies](../../README.md)

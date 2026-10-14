@@ -237,5 +237,7 @@ And a retry re-sends the whole conversation too: that's [fallacy 1](../01-networ
 - Related: [The Fallacies of AI-Assisted Programming](https://writing.alteredcraft.com/p/the-fallacies-of-ai-assisted-programming)
   (Sam Keen, 2026), whose fallacy "The cost of code has gone to zero" says *"Agents re-send accumulated
   context on every step."*
+- Related: [AI Agents and fallacies of Distributed Computing](https://blog.gopenai.com/ai-agents-and-fallacies-of-distributed-computing-e45fadd1c765)
+  (Krishna Avva, 2026), whose section on this fallacy is titled *"autonomy hides the meter, and reliability compounds against you."*
 
 [← All ten fallacies](../../README.md)

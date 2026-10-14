@@ -210,5 +210,7 @@ takes longer the more the agent reads and writes, so sending less also makes it 
   figures above
 - [The Tail at Scale](https://research.google/pubs/the-tail-at-scale/) (Jeffrey Dean and Luiz André
   Barroso, *Communications of the ACM*, 2013), on why a fan-out waits for its slowest call
+- Related: [AI Agents and fallacies of Distributed Computing](https://blog.gopenai.com/ai-agents-and-fallacies-of-distributed-computing-e45fadd1c765)
+  (Krishna Avva, 2026), whose section on this fallacy is titled *"sequential reasoning compounds the tail."*
 
 [← All ten fallacies](../../README.md)

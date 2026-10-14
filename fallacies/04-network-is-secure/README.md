@@ -228,5 +228,7 @@ only its own tools, and that only the right people can edit the hotel catalog; w
 - Related: [The Fallacies of AI-Assisted Programming](https://writing.alteredcraft.com/p/the-fallacies-of-ai-assisted-programming)
   (Sam Keen, 2026), which makes the same point for coding agents that read untrusted text *"as if it were
   trusted instruction."*
+- Related: [AI Agents and fallacies of Distributed Computing](https://blog.gopenai.com/ai-agents-and-fallacies-of-distributed-computing-e45fadd1c765)
+  (Krishna Avva, 2026), whose section on this fallacy is titled *"transport integrity becomes decision integrity."*
 
 [← All ten fallacies](../../README.md)

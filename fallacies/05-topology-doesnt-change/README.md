@@ -215,5 +215,7 @@ whether a changed definition is still compatible is [fallacy 8](../08-network-is
   (specification, 2026-07-28 revision)
 - [Tool Preferences in Agentic LLMs are Unreliable](https://arxiv.org/abs/2505.18135) (Kazem Faghih et al.,
   EMNLP 2025)
+- Related: [AI Agents and fallacies of Distributed Computing](https://blog.gopenai.com/ai-agents-and-fallacies-of-distributed-computing-e45fadd1c765)
+  (Krishna Avva, 2026), whose section on this fallacy is titled *"assumptions expire, and now they get persisted."*
 
 [← All ten fallacies](../../README.md)

@@ -31,8 +31,8 @@ browser's copy only saves a round trip.
 
 ![Left: a browser checks that a name has at most 40 characters, but a hand-written HTTP request skips the
 browser, the web server doesn't check, and the database's wide column stores a 57-character name with no
-error; the fix is to define the rule once and check it in the browser for speed and again in the server
-and the database. Right: the approval rule lives only in the orchestrator's instructions; the
+error; the fix is to check the rule on purpose in every tier: the browser for speed, the server and the
+database to enforce it. Right: the approval rule lives only in the orchestrator's instructions; the
 orchestrator asks the Hotel agent to book 6 rooms, with no amount, and the Hotel agent books B-001 and
 hands off straight to the Payment agent, past the orchestrator, so Charge(2,160 EUR, GARDEN-INN-001) goes
 through as CH-001 and no one is asked to approve it; the fix has Charge run the rule for every caller and

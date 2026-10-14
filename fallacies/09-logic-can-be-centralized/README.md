@@ -67,9 +67,9 @@ guardrails instead of relying only on agent-level input/output guardrails."
 ## In code
 
 Both programs simulate the [example system](../../docs/example-system.md) with one change: the agents
-run as a handoff workflow, so the Hotel agent can hand off to the Payment agent. In trip-42, the Hotel
-agent books 6 rooms at the Garden Inn for 2,160 EUR, and the travel policy has one rule, defined once:
-payments over 2,000 EUR need the travel manager's approval. The orchestrator's model hands the booking to
+run as a handoff workflow, so the Hotel agent can hand off to the Payment agent. Here trip-42 is for a
+team of six: the Hotel agent books 6 rooms at the Garden Inn for 2,160 EUR, and the travel policy has
+one rule, defined once: payments over 2,000 EUR need the travel manager's approval. The orchestrator's model hands the booking to
 the Hotel agent and stops any payment its instructions say needs approval, unless they leave it to
 Charge; the Hotel agent's model books the rooms and hands the payment to the Payment agent rather than
 back to the orchestrator; the Payment agent's model pays what the handoff names. Each program has no

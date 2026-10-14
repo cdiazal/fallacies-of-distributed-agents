@@ -44,11 +44,13 @@ not deployed.
 ## Where the fallacies come from
 
 The first eight are the fallacies of distributed computing, from L. Peter Deutsch and colleagues at Sun
-Microsystems. The last two come from Ted Neward's fallacies of enterprise computing.
+Microsystems. The last two come from Ted Neward's fallacies of enterprise computing. See
+[History](docs/history.md) for where each list came from and where the sources disagree, and
+[Prior art](docs/prior-art.md) for the work closest to this catalog.
 
 ## How to cite
 
-Díaz Alcolea, C. (2027). *The Fallacies of Distributed Agents* (v1.0).
+Díaz Alcolea, C. (2026). *The Fallacies of Distributed Agents* (v1.0).
 https://github.com/cdiazal/fallacies-of-distributed-agents
 
 ## License

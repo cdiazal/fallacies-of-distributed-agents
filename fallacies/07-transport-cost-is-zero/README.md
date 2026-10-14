@@ -65,7 +65,7 @@ show the model a countdown: they're "a soft hint, not a hard cap."
 ## In code
 
 Both programs simulate the [example system](../../docs/example-system.md): the Hotel agent proposes a
-hotel for trip-42, two nights under 200 EUR a night and rated 4 or better, from the three near the office
+hotel for trip-42, two nights under 200 EUR a night and rated 4 or better, from the same three hotels as
 in [fallacy 3](../03-bandwidth-is-infinite/); the orchestrator reviews each proposal in a group chat.
 Every proposal meets the traveler's limits, and "cheaper" is only a preference, so whenever the chat
 ends, the runtime books the latest proposal. The Hotel agent's model searches under its

@@ -187,7 +187,7 @@ Undoing steps that already finished is [fallacy 10](../10-system-is-monolithic/)
 
 In real code, the check is a few lines in either language. The libraries refresh lists, not plans:
 Microsoft Agent Framework's Python MCP tools
-[reload theirs](https://learn.microsoft.com/en-us/python/api/agent-framework-core/agent_framework.mcpstreamablehttptool?view=agent-framework-python-latest),
+[reload theirs](https://github.com/microsoft/agent-framework/blob/main/python/packages/core/agent_framework/_mcp.py),
 and the MCP C# SDK [shows how](https://csharp.sdk.modelcontextprotocol.io/v1/concepts/tools/tools.html).
 Check one default too: in Microsoft.Extensions.AI,
 [`TerminateOnUnknownCalls`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.ai.functioninvokingchatclient.terminateonunknowncalls)
